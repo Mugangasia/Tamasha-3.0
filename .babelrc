@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "next/babel",
+    "@babel/preset-typescript",
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ]
+}
